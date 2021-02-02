@@ -29,7 +29,7 @@ class main extends PluginBase implements Listener {
             case "pack":
              if($sender instanceof Player){
                 if(!isset($args[0])){
-                    $sender->sendMessage("§bTolong Menggunakan Command Tersebut Seperti Ini, /pack [Nama Pack]");
+                    $sender->sendMessage("§bUsage: /pack [pack name]");
                     return true;
                 } else {
                     switch(strtolower($args[0])){
