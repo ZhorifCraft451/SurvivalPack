@@ -1,0 +1,22 @@
+name: SurvivalPack
+main: ZhorifCraft451\Main
+api: 3.0.0,4.0.0
+version: 1.0
+author: ZhorifCraft451
+
+commands:
+ pack:
+  description: "Please Save your item on chest,this cmd can remove all of your items"
+permissions:
+ uncommon.pack.use:
+  default: op
+ rare.pack.use:
+  default: op
+ legends.pack.use:
+  default: op
+ epic.pack.use:
+  default: op
+ veteran.pack.use:
+  default: op
+ common.pack.use: 
+  default: op
